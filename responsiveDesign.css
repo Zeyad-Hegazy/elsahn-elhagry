@@ -1,0 +1,292 @@
+@media (max-width: 1025px) {
+	/* big landscape tablets, laptops, and desktops */
+	body {
+		overflow-x: hidden;
+	}
+	.slide {
+		object-fit: cover;
+	}
+	.nav-icons div {
+		margin-inline: 20px;
+	}
+	.nav-icons div span {
+		font-size: 20px;
+	}
+	.menu-section {
+		height: 400vh;
+	}
+	.menu-section h1 {
+		margin-top: 20rem;
+	}
+}
+@media (max-width: 700px) {
+	body {
+		overflow-x: hidden;
+	}
+	.about-us {
+		height: 280vh;
+		width: 100vw;
+		background-color: var(--lightCoffeClr);
+		padding-inline: 5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 5rem;
+		align-items: center;
+		margin-top: -6rem;
+	}
+	.row {
+		height: 30%;
+		display: flex;
+		justify-content: space-between;
+		gap: 3rem;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.row p {
+		width: 120%;
+	}
+	.about-images {
+		width: 120%;
+	}
+	.secondParagraph {
+		order: -1;
+	}
+	.dates {
+		width: 20rem;
+	}
+	.dates div {
+		font-size: 23px;
+		line-height: 60px;
+	}
+	.menu-section {
+		height: 700vh;
+	}
+	.menu-section h1 {
+		margin-top: 30rem;
+	}
+
+	.categories {
+		gap: 50px;
+	}
+	.active-food {
+		gap: 3rem;
+	}
+	.row-for-food-head {
+		gap: 4rem;
+	}
+	.row-for-food {
+		gap: 5rem;
+	}
+}
+@media (max-width: 480px) {
+	/* smartphones, Android phones, landscape iPhone */
+	body {
+		overflow-x: hidden;
+	}
+	.hidden-nav {
+		height: 30rem;
+		top: -40rem;
+	}
+	.nav-icons {
+		flex-direction: column;
+		gap: 3rem;
+	}
+	.anchor {
+		right: 2rem;
+	}
+	.anchor.change {
+		bottom: -35rem;
+	}
+	.anchor::before {
+		top: -36rem;
+		height: 40rem;
+	}
+	.logo {
+		top: -5%;
+	}
+	.transonion-on-click {
+		top: -5%;
+	}
+	.slide-arrow {
+		top: 260px;
+		width: 2.5rem;
+		height: 3rem;
+		padding-bottom: 5rem;
+	}
+	.about-us {
+		height: 350vh;
+		width: 100vw;
+		background-color: var(--lightCoffeClr);
+		padding-inline: 5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 5rem;
+		align-items: center;
+		margin-top: -10rem;
+	}
+	.row-about {
+		height: 30%;
+		display: flex;
+		justify-content: space-between;
+		gap: 3rem;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.row-about p {
+		width: 120%;
+	}
+	.about-images {
+		width: 120%;
+	}
+	.secondParagraph {
+		order: -1;
+	}
+	.dates {
+		width: 20rem;
+	}
+	.dates div {
+		font-size: 23px;
+		line-height: 60px;
+	}
+	.dates-section h1 {
+		font-size: 60px;
+		margin-top: -4rem;
+		color: var(--mainDarkClr);
+		width: 20rem;
+		text-align: center;
+	}
+	.menu-section {
+		height: 700vh;
+	}
+	.menu-section h1 {
+		margin-top: -30rem;
+	}
+
+	.categories {
+		gap: 50px;
+	}
+	.active-food {
+		gap: 3rem;
+	}
+	.row-for-food-head {
+		gap: 2rem;
+		font-size: 35px;
+	}
+	.row-for-food {
+		gap: 4rem;
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 320px) {
+	/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+	body {
+		overflow-x: hidden;
+	}
+	.hidden-nav {
+		height: 30rem;
+		top: -40rem;
+	}
+	.nav-icons {
+		flex-direction: column;
+		gap: 3rem;
+	}
+	.anchor {
+		right: 2rem;
+	}
+	.anchor.change {
+		bottom: -38rem;
+	}
+	.anchor::before {
+		top: -36rem;
+		height: 40rem;
+	}
+	.logo {
+		top: -5%;
+	}
+	.transonion-on-click {
+		top: -5%;
+	}
+	.slide-arrow {
+		top: 260px;
+		width: 2.5rem;
+		height: 3rem;
+		padding-bottom: 5rem;
+	}
+	.about-us {
+		height: 455vh;
+		margin-top: -30rem;
+	}
+	.row {
+		height: 23%;
+		display: flex;
+		justify-content: space-between;
+		gap: 3rem;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.row p {
+		width: 160%;
+	}
+	.about-images {
+		width: 170%;
+	}
+	.secondParagraph {
+		order: -1;
+	}
+	.dates-section {
+		height: 185vh;
+		margin-top: -20rem;
+	}
+	.icons-dates::after {
+		width: 19rem;
+	}
+
+	.dates {
+		width: 20rem;
+	}
+	.dates div {
+		font-size: 23px;
+		line-height: 60px;
+	}
+	.dates-section h1 {
+		font-size: 60px;
+		margin-top: -4rem;
+		color: var(--mainDarkClr);
+		width: 20rem;
+		text-align: center;
+	}
+	.menu-section {
+		height: 700vh;
+		margin-top: -10rem;
+	}
+	.menu-section h1 {
+		margin-top: -20rem;
+	}
+
+	.categories {
+		gap: 50px;
+	}
+	.active-food {
+		gap: 3rem;
+	}
+	.row-for-food-head {
+		gap: 2rem;
+		font-size: 30px;
+	}
+	.row-for-food {
+		gap: 4rem;
+		font-size: 25px;
+	}
+	/* .menu-section h1 {
+		margin-top: 40rem;
+	} */
+	/* * {
+		border: 1px solid red;
+	} */
+}
